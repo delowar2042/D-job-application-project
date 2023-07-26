@@ -1,0 +1,69 @@
+OCTYPE html><!D
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application form</title>
+    <link rel="stylesheet" href="formpage.css"/>
+
+</head>
+<body>
+    
+    <div class="container"> 
+    <div class="apply_box">
+    <h1>Job Application Form</h1>
+    <form action="">
+        <div class="form_container">
+            <div class="form_control">
+                <label for="fist_name">First name</label>
+                <input id="first_name" name="first_name" placeholder="enter First Name">
+                </div>
+                <div class="form_control">
+                    <label for="last_name">Last name</label>
+                    <input id="last_name" name="last_name" placeholder="enter Last Name">
+                </div>
+
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="enter email..">
+                </div>
+
+                              
+            
+            <div class="form_control">
+                <label for="Job_role">job Role</label>
+                <select id="job_role" name="job_role">
+                    <option value="">Select job Role</option> 
+                <option value="frontend">frontend Developer</option>
+                <option value="backend">backend  Developer</option>
+                <option value="full_stack">full stack Developer</option>
+            </select>
+            </div>
+            <div class="form_control">
+                Address:<input type="textarea" name="address" row="4" cols="5"placeholder="enter adsress">   
+            </div>
+            <div class="form_control">
+                <label for="city">city </label>
+                <input id="city" name="city" placeholder="city name..."/>
+            </div>
+            <div class="form_control">
+                <label for="postcode">postcode </label>
+                <input type="number" id="postcode" name="postcode" placeholder="postcode number..."/>
+            </div>
+            <div class="form_control">
+                <label for="date">Date </label>
+                <input type="date" id="date" name="date"/>
+            </div>
+            <div class="form_control">
+                <label for="upload">upload your CV </label>
+                <input type="file" id="upload" name="upload"/>
+            </div>
+        </div>
+<div class="button_container">
+     <button type="submit">Apply Now</button>
+</div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

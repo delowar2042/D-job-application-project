@@ -1,0 +1,35 @@
+body {
+    background-image: url("office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+
+  .full-text{
+    margin-left: 550px;
+    padding: 20px 30px;
+    background-color: rgba(74, 69, 79, 0.5);
+    width: 400px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
